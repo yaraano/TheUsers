@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 15px;
+}
+.text-box {
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+.inner-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+img {
+  width: 100%;
+}
+
+.deleteBtn {
+  padding: 5px 12px;
+  background-color: gray;
+  border: 2px solid black;
+  border-radius:20px ;
+}
